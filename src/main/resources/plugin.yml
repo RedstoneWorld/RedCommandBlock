@@ -1,5 +1,5 @@
 name: RedCommandBlock
-version: ${project.version}
+version: '${minecraft.plugin.version}'
 main: de.redstoneworld.redcommandblock.RedCommandBlock
 api-version: 1.13
 authors: [Phoenix616]

@@ -1,0 +1,16 @@
+name: RedCommandBlock
+version: ${project.version}
+main: de.redstoneworld.redcommandblock.RedCommandBlock
+api-version: 1.13
+authors: [Phoenix616]
+commands:
+  redcommandblock:
+    usage: /<command> reload
+    permission: rwm.commandblock.command
+permissions:
+  rwm.commandblock.command:
+    default: op
+    description: Main command permission
+  rwm.commandblock.command.reload:
+    default: op
+    description: Reload command permission

@@ -1,0 +1,9 @@
+command-whitelist:
+  enable: true
+  # Default is for all worlds
+  default:
+  - teleport
+  - tp
+  worlds:
+    weltname:
+    - befehl
